@@ -12,18 +12,52 @@ const Sidebar = () => {
             <a onClick={() => navigate("/")}>HOME</a>
           </ul>
           <ul>
-            <a onClick={() => window.scrollTo({ top: 0, behavior: "smooth" })}>
+            <a
+              onClick={() => {
+                const aboutSection = document.getElementById("About");
+                if (aboutSection) {
+                  aboutSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
               About
             </a>
           </ul>
           <ul>
-            <a href="#Exp">Experiences</a>
+            <a
+              onClick={() => {
+                const ExpSection = document.getElementById("Exp");
+                if (ExpSection) {
+                  ExpSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Experience
+            </a>
           </ul>
           <ul>
-            <a href="#Skills">Skills</a>
+            <a
+              onClick={() => {
+                const skillsSection = document.getElementById("skills");
+                if (skillsSection) {
+                  skillsSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              skills
+            </a>
           </ul>
           <ul>
-            <a href="#Projects">Projects</a>
+            <a
+              onClick={() => {
+                const projectSection = document.getElementById("Projects");
+                if (projectSection) {
+                  projectSection.scrollIntoView({ behavior: "smooth" });
+                }
+              }}
+            >
+              Projects
+            </a>
           </ul>
         </div>
       </div>

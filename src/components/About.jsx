@@ -3,7 +3,7 @@ import styles from "./About.module.css";
 const Project = () => {
   return (
     <>
-      <div className={styles.aboutWrapper}>
+      <div id="About" className={styles.aboutWrapper}>
         <h2>About me</h2>
         <div className={styles.aboutContainer}>
           <div className={styles.subWrapper}>
