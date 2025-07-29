@@ -1,0 +1,46 @@
+:root {
+  --white: #faf9f6;
+  --main-blue: #3071f2;
+  --main-black: #262627;
+}
+
+.footerContainer {
+  width: 100vw;
+  height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.spanContainer {
+  width: inherit;
+  height: 5vh;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: var(--main-black);
+}
+
+.logoContainer {
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoContainer .githubLogo,
+.logoContainer .velogLogo {
+  width: 24px;
+  height: 24px;
+  margin: 12px;
+  color: var(--main-black);
+}
+
+.logoContainer .githubLogo:hover,
+.logoContainer .velogLogo:hover {
+  cursor: pointer;
+  transition: 0.7;
+  color: var(--main-blue);
+  scale: 1.4;
+}

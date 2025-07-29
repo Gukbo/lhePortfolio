@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css");
+
+:root {
+  --white: #faf9f6;
+  --main-blue: #3071f2;
+  --main-black: #262627;
+}
+
+.sideWrapper {
+  margin-top: 30vh;
+  height: 50vh;
+  position: fixed;
+}
+
+.sideContainer {
+}
+
+.sideContainer ul {
+  margin-bottom: 4vh;
+}
+
+.sideContainer ul a {
+  font-family: "NanumSquare", sans-serif;
+  text-decoration: none;
+  color: var(--main-blue);
+  padding: 12px;
+  border-radius: 18px;
+  transition: 0.3s;
+}
+
+.sideContainer ul a:hover {
+  font-weight: 900;
+  background-color: var(--main-blue);
+  color: var(--white);
+  cursor: pointer;
+}

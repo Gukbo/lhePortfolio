@@ -1,0 +1,70 @@
+:root {
+  --white: #faf9f6;
+  --main-blue: #3071f2;
+  --main-black: #262627;
+}
+
+body {
+  margin: 0;
+  background-color: var(--white);
+}
+
+.homeContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 60vh;
+}
+
+.wrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.homeWrapper {
+  width: 100vw;
+  height: 94vh;
+}
+
+.btnContainer {
+  display: flex;
+  width: 100vw;
+  height: 20vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}
+
+.btnContainer .enterBtn {
+  width: 150px;
+  height: 50px;
+  border-color: var(--main-black);
+  background-color: var(--main-blue);
+  color: var(--white);
+  border-radius: 12px;
+  font-size: 18px;
+  border: 0;
+}
+
+.btnContainer .enterBtn:hover {
+  transition: 0.6s;
+  background-color: var(--white);
+  border-color: var(--main-black);
+  color: var(--main-blue);
+  cursor: pointer;
+  border: solid 2px var(--main-blue);
+}
+
+.aboutWrapper {
+  width: 100vw;
+  height: 128vh;
+}
+
+.aboutContainer {
+  width: 100vw;
+  height: 94vh;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+}

@@ -1,0 +1,28 @@
+:root {
+  --white: #faf9f6;
+  --main-blue: #3071f2;
+  --main-black: #262627;
+}
+
+.NavContainer {
+  display: flex;
+  width: 90vw;
+  height: 6vh;
+  justify-content: start;
+  align-items: center;
+}
+
+.NavContainer .Homebtn:hover {
+  cursor: pointer;
+}
+
+.NavContainer .Homebtn {
+  width: auto;
+  height: 40px;
+  border: none;
+  background-color: var(--white);
+  color: var(--main-blue);
+  font-size: 42px;
+  margin-top: 16px;
+  margin-left: 3vw;
+}

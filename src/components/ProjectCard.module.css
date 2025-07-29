@@ -1,0 +1,45 @@
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css");
+
+:root {
+  --white: #faf9f6;
+  --main-blue: #3071f2;
+  --main-black: #262627;
+}
+
+.cardWrapper {
+  font-family: "NanumSquare", sans-serif;
+  display: flex;
+  width: 80vw;
+  flex-direction: row;
+  margin: 1vw;
+  margin-left: 8vw;
+  margin-top: 8vh;
+  border-radius: 12px;
+  flex-wrap: wrap;
+}
+
+.cardContainer {
+  border: var(--main-blue) solid 3px;
+  flex-direction: column;
+  width: fit-content;
+  padding: 2vw;
+  border-radius: 12px;
+  display: flex;
+  margin: 2vw;
+}
+
+.cardContainer p {
+  font-family: "NanumSquare", sans-serif;
+  text-align: center;
+  font-size: 19px;
+  font-weight: 800;
+}
+
+.cardbox {
+  width: fit-content;
+  height: fit-content;
+}
+
+.cardbox:hover {
+  cursor: pointer;
+}

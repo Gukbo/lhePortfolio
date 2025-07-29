@@ -1,0 +1,29 @@
+:root {
+  --bold-navy: #faf9f6;
+  --main-navy: #3071f2;
+  --sub-navy: #838eb9;
+  --main-gray: #262627;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  overflow-x: hidden;
+}
+
+.infoWrapper {
+  width: 100vw;
+  height: 100vh;
+}
+
+.infoContainer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}

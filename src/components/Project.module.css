@@ -1,0 +1,36 @@
+@import url("https://cdn.jsdelivr.net/gh/moonspam/NanumSquare@2.0/nanumsquare.css");
+
+:root {
+  --white: #faf9f6;
+  --main-blue: #3071f2;
+  --main-black: #262627;
+}
+
+.projectWrapper {
+  font-family: "NanumSquare", sans-serif;
+  display: flex;
+  width: 80vw;
+  flex-direction: column;
+  margin-top: 8vh;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.projectContainer {
+  width: 40vw;
+  margin: 3vw;
+  display: flex;
+  flex-direction: column;
+}
+
+.projectWrapper h2 {
+  margin-right: 8vw;
+  font-weight: 900;
+  font-size: 28px;
+  color: var(--main-black);
+}
+
+.subWrapper {
+  background-color: var(--main-blue);
+  border-radius: 12px;
+}
