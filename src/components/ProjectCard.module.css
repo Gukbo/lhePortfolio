@@ -28,12 +28,12 @@
   margin: 2vw;
 }
 
-.cardbox {
+.cardBox {
   width: 200px;
   height: 350px;
 }
 
-.cardbox:hover {
+.cardBox:hover {
   cursor: pointer;
 }
 
