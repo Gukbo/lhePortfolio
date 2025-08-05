@@ -34,3 +34,10 @@
   color: var(--white);
   cursor: pointer;
 }
+
+/* Sidebar.module.css 또는 global.css에 추가 */
+@media (max-width: 768px) {
+  .sideWrapper {
+    display: none;
+  }
+}
