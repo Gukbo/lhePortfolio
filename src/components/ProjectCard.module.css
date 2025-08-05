@@ -29,8 +29,12 @@
 }
 
 .cardBox {
-  width: 200px;
-  height: 350px;
+  width: 140px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .cardBox:hover {
